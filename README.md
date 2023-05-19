@@ -98,10 +98,16 @@ To troubleshoot any issues, add the following code to the server.xml file in the
   | <Context path="/webapp" docBase="webapp" />
   | </Host>|`
  
- `
-      |second
-      |third
-    `
+const multiline = require('multiline-template');
+
+const msg =  multiline`
+  |first
+  |second
+  |third
+  |fourth
+`;
+
+console.log(msg);
  
  
 Replace "webapp" with the correct path, save the file and restart tomcat: 
