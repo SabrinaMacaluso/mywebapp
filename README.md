@@ -98,17 +98,9 @@ To troubleshoot any issues, add the following code to the server.xml file in the
   | <Context path="/webapp" docBase="webapp" />
   | </Host>|`
  
-const multiline = require('multiline-template');
-
-const msg =  multiline`
-  |first
-  |second
-  |third
-  |fourth
-`;
-
-console.log(msg);
- 
+val speech = """Four score and
+               seven years ago
+               our fathers ..."""
  
 Replace "webapp" with the correct path, save the file and restart tomcat: 
 
