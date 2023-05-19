@@ -103,4 +103,10 @@ Replace "webapp" with the correct path, save the file and restart tomcat:
 ```start-tomcat```
 
 
+To fix incorrect permissions for the "webapp.war" file in the "tomcat/webapps" folder, check its permissions and modify them if necessary.
+
+```sudo chmod 644 webapp.war```
+
+
+
 
