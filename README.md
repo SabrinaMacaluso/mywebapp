@@ -94,6 +94,16 @@ To troubleshoot any issues, add the following code to the server.xml file in the
  ``` <Context path="/webapp" docBase="webapp" />```
 ```</Host>```
 
+ `|<Host>
+  | <Context path="/webapp" docBase="webapp" />
+  | </Host>|`
+ 
+ `
+      |second
+      |third
+    `
+ 
+ 
 Replace "webapp" with the correct path, save the file and restart tomcat: 
 
 ```start-tomcat```
