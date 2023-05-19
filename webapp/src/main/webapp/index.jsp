@@ -46,7 +46,7 @@
 	<div class="container">
 		<h1>Hello!</h1>
 		<img src="https://images.unsplash.com/photo-1603205431090-8dcdfcb54897?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
-		<p>Welcome to my Tomcat server running.</p>
+		<p>Welcome to my Tomcat server.</p>
 		<p class="quote">"Learning is a treasure that will follow its owner everywhere." - Chinese Proverb</p>
 	</div>
 </body>
