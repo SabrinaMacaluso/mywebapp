@@ -16,9 +16,10 @@
 
 * Create a directory for Apache Tomcat:
 
-```mkdir apache-tomcat```
-
-```cd apache-tomcat```
+```
+mkdir apache-tomcat
+cd apache-tomcat
+```
 
 * Download Apache Tomcat 10.1.8:
 
@@ -67,19 +68,19 @@ Open the .bashrc file.
 
 * Add the following environment variables:
 
-```export JAVA_HOME=/usr/lib/jvm/default-java```
-
-```export M2_HOME=/usr/share/maven```
-
-```export CATALINA_HOME=/home/dev/Desktop/apache-tomcat/tomcat```
-
-```export PATH=$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$CATALINA_HOME/bin```
+```
+export JAVA_HOME=/usr/lib/jvm/default-java
+export M2_HOME=/usr/share/maven
+export CATALINA_HOME=/home/dev/Desktop/apache-tomcat/tomcat
+export PATH=$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$CATALINA_HOME/bin
+```
 
 * Define aliases for starting and stopping Tomcat:
 
-```alias start-tomcat='/home/dev/Desktop/apache-tomcat/tomcat/bin/startup.sh'```
-
-```alias stop-tomcat='/home/dev/Desktop/apache-tomcat/tomcat/bin/shutdown.sh'```
+```
+alias start-tomcat='/home/dev/Desktop/apache-tomcat/tomcat/bin/startup.sh'
+alias stop-tomcat='/home/dev/Desktop/apache-tomcat/tomcat/bin/shutdown.sh'
+```
 
 * Apply the changes by sourcing the .bashrc file:
 
@@ -90,8 +91,9 @@ Open the .bashrc file.
 
 To troubleshoot any issues, add the following code to the server.xml file in the tomcat/conf directory:
 
-```<Host>
- <Context path="/webapp" docBase="webapp" />
+```
+<Host>
+      <Context path="/webapp" docBase="webapp" />
 </Host>
 ```
 
