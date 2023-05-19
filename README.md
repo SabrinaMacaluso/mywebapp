@@ -87,7 +87,7 @@ alias stop-tomcat='/home/dev/Desktop/apache-tomcat/tomcat/bin/shutdown.sh'
 ```source ~/.bashrc```
 
 
-# troubleshooting
+# Troubleshooting
 
 To troubleshoot any issues, add the following code to the server.xml file in the tomcat/conf directory:
 
