@@ -73,7 +73,7 @@ Open the .bashrc file.
 
 ```export CATALINA_HOME=/home/dev/Desktop/apache-tomcat/tomcat```
 
-```export PATH=$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$CATALINA_HOME/bin``
+```export PATH=$PATH:$JAVA_HOME/bin:$M2_HOME/bin:$CATALINA_HOME/bin```
 
 * Define aliases for starting and stopping Tomcat:
 
