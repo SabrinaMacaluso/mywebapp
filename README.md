@@ -90,9 +90,10 @@ Open the .bashrc file.
 
 To troubleshoot any issues, add the following code to the server.xml file in the tomcat/conf directory:
 
-```<Host>```
- ``` <Context path="/webapp" docBase="webapp" />```
-```</Host>```
+```<Host>
+ <Context path="/webapp" docBase="webapp" />
+</Host>
+```
 
  
 Replace "webapp" with the correct path, save the file and restart tomcat: 
