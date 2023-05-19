@@ -41,7 +41,7 @@
 
 * Install the Extension Pack for Java by Microsoft.
 
-* Create a Maven project using the "webapp" archetype. Choose a name for your project (e.g., "mywebapp").
+* Create a Maven project using the "webapp" archetype. Choose a name for your project (e.g., "webapp").
 
 * In the Visual Studio Code terminal, run the following command to clean and build the Maven project:
 
@@ -49,7 +49,7 @@
 
 * Copy the generated WAR file to the Tomcat webapps directory:
 
-```sudo cp target/mywebapp.war /home/dev/Desktop/apache-tomcat/tomcat/webapps/```
+```sudo cp target/webapp.war /home/dev/Desktop/apache-tomcat/tomcat/webapps/```
 
 * Start Tomcat using the following alias:
 
@@ -59,7 +59,7 @@
 
 * To access your web application, open a web browser and go to the following URL:
 
-```http://localhost:8080/mywebapp/```
+```http://localhost:8080/webapp/```
 
 ## Environment configuration:
 
