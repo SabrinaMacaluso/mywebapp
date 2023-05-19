@@ -90,17 +90,10 @@ Open the .bashrc file.
 
 To troubleshoot any issues, add the following code to the server.xml file in the tomcat/conf directory:
 
-|```<Host>```
+```<Host>```
  ``` <Context path="/webapp" docBase="webapp" />```
 ```</Host>```
 
- `|<Host>
-  | <Context path="/webapp" docBase="webapp" />
-  | </Host>|`
- 
-val speech = """Four score and
-               seven years ago
-               our fathers ..."""
  
 Replace "webapp" with the correct path, save the file and restart tomcat: 
 
