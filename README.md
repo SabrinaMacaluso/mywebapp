@@ -1,4 +1,4 @@
-# mywebapp
+# mywebapp Setup Guide: Ubuntu 20.04, Apache Tomcat, and Visual Studio Code
 
 ##  Update the system packages:
 
