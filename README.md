@@ -93,7 +93,15 @@ To troubleshoot any issues, add the following code to the server.xml file in the
 
 ```
 <Host>
+.
+.
+.
+
       <Context path="/webapp" docBase="webapp" />
+.
+.
+.
+     
 </Host>
 ```
 
